@@ -8,12 +8,6 @@ import { Indicator } from '../components/ui/indicator/Indicator';
 import { RadioButton } from '../components/ui/radio-button/RadioButton';
 import { Select } from '../components/ui/select/Select';
 
-const options = [
-	{ label: 'Человек', value: 'Human' },
-	{ label: 'Машина', value: 'Car' },
-	{ label: 'Яблоко', value: 'Apple' },
-];
-
 const Home: NextPage = () => {
 	return (
 		<div style={{ maxWidth: 1200, padding: '20px', margin: '0 auto' }}>
@@ -66,7 +60,7 @@ const Home: NextPage = () => {
 			<br />
 			<hr />
 			<br />
-			<Select placeholder='Значение' options={options} setValue={() => {}} />
+			{/* <Select placeholder='Значение' options={options} setValue={() => {}} /> */}
 		</div>
 	);
 };

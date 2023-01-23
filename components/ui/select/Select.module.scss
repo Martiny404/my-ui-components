@@ -15,6 +15,11 @@
 	}
 }
 
+.btn {
+	width: calc(100% - 50px);
+	text-align: left;
+}
+
 .clearBtn {
 	position: absolute;
 	top: 50%;

@@ -9,4 +9,5 @@ export interface SelectProps {
 	setValue: (...args: any[]) => void;
 	errorMessage?: string;
 	className?: string;
+	initialValue?: string;
 }

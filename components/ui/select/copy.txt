@@ -10,13 +10,9 @@ export const Select: FC<SelectProps> = ({
 	errorMessage,
 	placeholder,
 	setValue,
-	initialValue = '',
 	className,
 }) => {
-	const [selectedOption, setSelectedOption] = useState<number>(
-		options.findIndex(item => item.value == initialValue)
-	);
-
+	const [selectedOption, setSelectedOption] = useState<number>(-1);
 	const {
 		isShow: isOptionsOpen,
 		setIsShow: setIsOptionsOpen,
