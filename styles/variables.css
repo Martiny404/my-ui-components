@@ -1,0 +1,10 @@
+:root {
+	--header-height: 64px;
+	--footer-height: 70px;
+	--color-black: #000;
+	--color-primary: #007aff;
+	--color-ghost: rgba(0, 122, 255, 0.15);
+	--color-white: #fff;
+	--color-green: #34c759;
+	--color-orange: #ff9f0a;
+}

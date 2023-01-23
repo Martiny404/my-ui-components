@@ -1,0 +1,71 @@
+.fake {
+	display: none;
+}
+
+.btnBlock {
+	border: 0;
+	border-radius: 4px;
+	width: 100%;
+	border: 1px solid var(--color-primary);
+	padding: 6px 8px;
+	position: relative;
+	text-align: left;
+	> button {
+		cursor: pointer;
+	}
+}
+
+.clearBtn {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	background-color: var(--color-black);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	> svg {
+		width: 14px;
+		height: 14px;
+		fill: var(--color-white);
+	}
+}
+
+.expanded {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.options {
+	border: 1px solid var(--color-primary);
+	border-top: none;
+	display: none;
+	list-style: none;
+	padding: 4px 0;
+	margin-top: -4px;
+}
+
+.error {
+	margin-top: 4px;
+	color: #ff453a;
+}
+
+.show {
+	display: block;
+}
+
+.options li {
+	padding: 6px 10px;
+	transition: all 0.25s ease-in-out;
+}
+
+.options li:hover,
+.options li.active {
+	background-color: var(--color-primary);
+	cursor: pointer;
+	color: var(--color-white);
+}
